@@ -11,7 +11,7 @@ end
 
 %% Main code
 if contains(shape,"pr_sphere")
-    h1_n = besselh(n,argument);
+    h1_n = sphankel2(n,argument);
     j_n = real(h1_n);
     out = j_n/h1_n;
 end
